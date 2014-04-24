@@ -28,6 +28,9 @@
     <Filter Include="Game\Scene">
       <UniqueIdentifier>{5aaa20e7-57ae-420d-ad34-18832e4aff39}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Game\Manager">
+      <UniqueIdentifier>{1684b960-5a5a-427c-8910-401e1c6e1ec3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
@@ -45,10 +48,19 @@
     <ClInclude Include="Game\Public\Define.h">
       <Filter>Game\Public</Filter>
     </ClInclude>
+    <ClInclude Include="Game\Manager\CommandManager.h">
+      <Filter>Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\CommScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameMain.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\CommScene.cpp">
+      <Filter>Game\Scene</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

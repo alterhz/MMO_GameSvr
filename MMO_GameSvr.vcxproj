@@ -50,7 +50,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\Game\Scene;.\Game\Command;.\Game\Interface;.\Game\Public;.\Game;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\Game\Scene;.\Game\Manager;.\Game\Command;.\Game\Interface;.\Game\Public;.\Game;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -80,10 +80,13 @@
     <ClInclude Include="Game\Command\Command.h" />
     <ClInclude Include="Game\Interface\ICommand.h" />
     <ClInclude Include="Game\Interface\IScene.h" />
+    <ClInclude Include="Game\Manager\CommandManager.h" />
     <ClInclude Include="Game\Public\Define.h" />
+    <ClInclude Include="Game\Scene\CommScene.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameMain.cpp" />
+    <ClCompile Include="Game\Scene\CommScene.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
