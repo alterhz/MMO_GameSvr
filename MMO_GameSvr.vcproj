@@ -41,6 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
+				AdditionalIncludeDirectories=".\Game\Scene;.\Game\Command;.\Game\Manager;.\Game\Interface;.\Game\Public;.\Game;.\"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -180,10 +181,6 @@
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
-			<File
-				RelativePath=".\targetver.h"
-				>
-			</File>
 		</Filter>
 		<Filter
 			Name="资源文件"
@@ -213,6 +210,10 @@
 			<Filter
 				Name="Manager"
 				>
+				<File
+					RelativePath=".\Game\Manager\CommandManager.h"
+					>
+				</File>
 			</Filter>
 			<Filter
 				Name="Command"
@@ -226,7 +227,7 @@
 				Name="Public"
 				>
 				<File
-					RelativePath=".\Game\Command\Define.h"
+					RelativePath=".\Game\Public\Define.h"
 					>
 				</File>
 			</Filter>
