@@ -1,0 +1,10 @@
+# linux ignore
+*.[oa]
+*~
+# windows ignore
+*.obj
+/Debug
+*.sdf
+*.suo
+*.opensdf
+*.user
