@@ -4,6 +4,7 @@
 # windows ignore
 *.obj
 /Debug
+/ipch
 *.sdf
 *.suo
 *.opensdf
