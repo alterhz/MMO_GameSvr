@@ -6,8 +6,7 @@
 class CCommScene : public IScene
 {
 public:
-	// ĞÄÌøÖ´ĞĞ
-	virtual bool DoTick(unsigned long nElapsed);
+	virtual bool OnRunCommand(ICommand *pCommand);
 
 
 };
