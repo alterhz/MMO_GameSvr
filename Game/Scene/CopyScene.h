@@ -1,13 +1,13 @@
-#ifndef _COMMSCENE_
-#define _COMMSCENE_
+#ifndef _COPYSCENE_
+#define _COPYSCENE_
 
 #include "Scene.h"
 
-class CCommScene : public CScene
+class CCopyScene : public CScene
 {
 public:
-	CCommScene();
-	~CCommScene();
+	CCopyScene();
+	~CCopyScene();
 
 	virtual bool OnRunCommand(ICommand *pCommand);
 

@@ -17,10 +17,15 @@ public:
 	}
 	ICommand * PopCommand()
 	{
-		ICommand *pCommand = m_listCommand.front();
-		m_listCommand.pop_front();
+		if (m_listCommand.size() > 0)
+		{
+			ICommand *pCommand = m_listCommand.front();
+			m_listCommand.pop_front();
 
-		return pCommand;
+			return pCommand;
+		}
+
+		return NULL;
 	}
 
 private:

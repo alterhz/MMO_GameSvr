@@ -41,7 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories=".\Game\Scene;.\Game\Command;.\Game\Manager;.\Game\Interface;.\Game\Public;.\Game;.\"
+				AdditionalIncludeDirectories=".\Game\Object;.\Game\Scene;.\Game\Command;.\Game\Manager;.\Game\Interface;.\Game\Public;.\Game;.\"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -198,20 +198,48 @@
 					RelativePath=".\Game\Interface\ICommand.h"
 					>
 				</File>
-				<File
-					RelativePath=".\Game\Interface\IScene.h"
-					>
-				</File>
 			</Filter>
 			<Filter
 				Name="Scene"
 				>
+				<File
+					RelativePath=".\Game\Scene\CommScene.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\Game\Scene\CommScene.h"
+					>
+				</File>
+				<File
+					RelativePath=".\Game\Scene\CopyScene.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\Game\Scene\CopyScene.h"
+					>
+				</File>
+				<File
+					RelativePath=".\Game\Scene\Scene.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\Game\Scene\Scene.h"
+					>
+				</File>
 			</Filter>
 			<Filter
 				Name="Manager"
 				>
 				<File
 					RelativePath=".\Game\Manager\CommandManager.h"
+					>
+				</File>
+				<File
+					RelativePath=".\Game\Manager\SceneManager.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\Game\Manager\SceneManager.h"
 					>
 				</File>
 			</Filter>
@@ -228,6 +256,18 @@
 				>
 				<File
 					RelativePath=".\Game\Public\Define.h"
+					>
+				</File>
+			</Filter>
+			<Filter
+				Name="Object"
+				>
+				<File
+					RelativePath=".\Game\Object\Obj.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\Game\Object\Obj.h"
 					>
 				</File>
 			</Filter>
