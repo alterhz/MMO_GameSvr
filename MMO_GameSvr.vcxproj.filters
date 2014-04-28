@@ -31,15 +31,15 @@
     <Filter Include="Game\Manager">
       <UniqueIdentifier>{1684b960-5a5a-427c-8910-401e1c6e1ec3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{d47ebcf5-66c5-4cb8-a960-6a6d1e29e39d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game\Interface\ICommand.h">
-      <Filter>Game\Interface</Filter>
-    </ClInclude>
-    <ClInclude Include="Game\Interface\IScene.h">
       <Filter>Game\Interface</Filter>
     </ClInclude>
     <ClInclude Include="Game\Command\Command.h">
@@ -54,6 +54,18 @@
     <ClInclude Include="Game\Scene\CommScene.h">
       <Filter>Game\Scene</Filter>
     </ClInclude>
+    <ClInclude Include="Game\Scene\CopyScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\Scene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Manager\SceneManager.h">
+      <Filter>Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object\Obj.h">
+      <Filter>Game\Object</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameMain.cpp">
@@ -61,6 +73,18 @@
     </ClCompile>
     <ClCompile Include="Game\Scene\CommScene.cpp">
       <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\CopyScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\Scene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Manager\SceneManager.cpp">
+      <Filter>Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object\Obj.cpp">
+      <Filter>Game\Object</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
