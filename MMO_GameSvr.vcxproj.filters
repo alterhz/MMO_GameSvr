@@ -34,6 +34,18 @@
     <Filter Include="Game\Object">
       <UniqueIdentifier>{d47ebcf5-66c5-4cb8-a960-6a6d1e29e39d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Game\Controller">
+      <UniqueIdentifier>{ad5ebe21-6aa4-4be7-b614-39e18fda2c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Controller\Trigger">
+      <UniqueIdentifier>{d6024217-38cb-41ae-a7d7-7934fb5e49c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Controller\Action">
+      <UniqueIdentifier>{0b31c43b-7490-4c08-98d7-4855b68a5a3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Controller\Filter">
+      <UniqueIdentifier>{022078a2-a902-459a-970b-69ce191147bd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
@@ -66,6 +78,12 @@
     <ClInclude Include="Game\Object\Obj.h">
       <Filter>Game\Object</Filter>
     </ClInclude>
+    <ClInclude Include="Game\Controller\IBaseCtrl.h">
+      <Filter>Game\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Controller\Trigger\TimerTrigger.h">
+      <Filter>Game\Controller\Trigger</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameMain.cpp">
@@ -85,6 +103,12 @@
     </ClCompile>
     <ClCompile Include="Game\Object\Obj.cpp">
       <Filter>Game\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Controller\IBaseCtrl.cpp">
+      <Filter>Game\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Controller\Trigger\TimerTrigger.cpp">
+      <Filter>Game\Controller\Trigger</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

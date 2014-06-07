@@ -50,7 +50,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.\Game\Object;.\Game\Public;.\Game\Scene;.\Game\Manager;.\Game\Command;.\Game\Interface;.\Game;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\Game\Controller\Action;.\Game\Controller\Trigger;.\Game\Controller\Filter;.\Game\Controller;.\Game\Object;.\Game\Public;.\Game\Scene;.\Game\Manager;.\Game\Command;.\Game\Interface;.\Game;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -78,6 +78,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game\Command\Command.h" />
+    <ClInclude Include="Game\Controller\IBaseCtrl.h" />
+    <ClInclude Include="Game\Controller\Trigger\TimerTrigger.h" />
     <ClInclude Include="Game\Interface\ICommand.h" />
     <ClInclude Include="Game\Manager\CommandManager.h" />
     <ClInclude Include="Game\Manager\SceneManager.h" />
@@ -89,6 +91,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameMain.cpp" />
+    <ClCompile Include="Game\Controller\IBaseCtrl.cpp" />
+    <ClCompile Include="Game\Controller\Trigger\TimerTrigger.cpp" />
     <ClCompile Include="Game\Manager\SceneManager.cpp" />
     <ClCompile Include="Game\Object\Obj.cpp" />
     <ClCompile Include="Game\Scene\CommScene.cpp" />
